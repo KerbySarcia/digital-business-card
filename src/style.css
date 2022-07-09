@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+
+    font-size: 100%;
+    font-family: "Inter", "sans serif";
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: #23252C;
+}
+
+.container{
+    background-color: #1A1B21;
+    width: min(90%,25rem);
+    margin: 1rem 0;
+    border-radius: 3rem;
+}
+
+.person-image{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.info-text{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 1.3rem;
+}
+
+.info-name{
+    font-size: 1.5rem;
+}
+
+.info-position{
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #F3BF99;
+    margin-top: 0.3rem;
+}
+
+.info-website{
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+}
+
+.email-btn, .linkedin-btn{
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.linkedin-btn{
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
+.email-text, .linkedin-text{
+    font-weight: 400;
+}
+
+.about, .interest{
+    margin: 1rem 2.5rem;
+}
+
+.interest{
+    margin-bottom: 3rem;
+}
+
+.bold{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.p{
+    color: #DCDCDC;
+    font-size: 0.8rem;
+    line-height: 1.7;
+}
+
+footer > ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0 4rem;
+}
+
+li{
+    cursor: pointer;
+}
+
+footer{
+    padding: 1rem;
+    background-color: #161619;
+    border-radius: 0 0 1rem 1rem;
+}
+
+
+
